@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #f2f2f2;
+  background-color: #fff;
 }
 body {
   color: #fff;
@@ -91,6 +91,15 @@ body {
 .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
+}
+
+img {
+  max-width: 100%  
+}
+
+#barcode{
+  width: device-width;
+  max-width: 400px;
 }
 
 @media (min-width: 48em) {
